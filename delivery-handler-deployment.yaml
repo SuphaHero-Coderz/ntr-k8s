@@ -50,7 +50,7 @@ spec:
             - name: OTEL_METRICS_EXPORTER
               value: none
             - name: OTEL_RESOURCE_ATTRIBUTES
-              value: service.name=ntr-inventory
+              value: service.name=ntr-delivery
             - name: PAYMENT_QUEUE_NAME
               value: payments
             - name: REDIS_QUEUE
